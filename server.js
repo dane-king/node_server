@@ -1,6 +1,6 @@
 var http = require("http");
-var templates=require("./templates");
-var setting=require("./server_setup");
+var templates=require("./templates/read_file");
+var setting=require("./config/server_setup");
 
 var errorPage='<h1>Error<h1>';
 
